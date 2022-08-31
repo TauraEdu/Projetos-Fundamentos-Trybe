@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header>
+        <h1>Minha Lista de Tarefas</h1>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+
+    </header>
+    <main>
+        <input type="text" id="texto-tarefa">
+        <button id="criar-tarefa">Criar tarefa</button>
+<!--para item 6-->
+        <div>
+        <ol id="lista-tarefas">
+        </ol>
+        </div>
+        
+        <button id="apaga-tudo">Apagar tudo</button>
+        <button id="remover-finalizados">Remover finalizados</button>
+        <button id="salvar-tarefas">Salvar tarefas</button>
+<!-- botões item 13
+Pontos importantes sobre este requisito bônus:
+
+* Antes de começar a desenvolver essa funcionalidade, pare e pense. O que significa mover um item de uma lista para cima ou para baixo no **_DOM_**? Você já possui todas as habilidades necessárias para fazer isso.
+
+* Habitue-se a pensar nos casos especiais ao construir programas. O que acontece se o usuário tentar mover o primeiro item para cima ou o último para baixo?-->
+        <button id="mover-cima">Mover para cima</button>
+        <button id="mover-baixo">Mover para baixo</button>
+        <button id="remover-selecioandos">Remover selecionados</button>
+
+
+    </main>
+    <footer id="rodape">
+        <h4>Desenvolvido por Eduardo Dias aluno na trybe!</h4>
+        <nav>
+        <a href="https://www.linkedin.com/in/eduardo-dias-da-silva-721ab7114/" target="_blank"> 
+            <img class="imgroda" src="linkedin-logo-3.png" alt="icone do linkedin" width="35px"></a></nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
