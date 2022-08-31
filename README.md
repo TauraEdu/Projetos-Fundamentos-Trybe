@@ -15,5 +15,11 @@
 
 04 - Projeto To do List - Desenvbolvi uma lista de tarefas usando `HTML`, `CSS` e `JavaScript`.
 
-05 - Projeto Trybewarts - Desenvolvi formulario de feedback. Utilizei CSS Flexbox para criar layouts flexíveis
+05 - Projeto Trybewarts - (Projeto desenvolvido em grupo) - Desenvolvi formulario de feedback. Utilizei CSS Flexbox para criar layouts flexíveis
 que altere o layout de acordo com a orientação da tela.
+
+06 - Projeto Test Units -  Implementei funções a partir de requisitos e testes unitários, utilizando a biblioteca do Jest.
+
+07 - Projeto - Zoo functions - Desenvolvi um sistema de relatorio, capaz de recuperar vários tipos de informações acerca do "zoológico" e de seu funcionamento, utilizando os conceitos de JavaScript ES6.
+
+08 - 
