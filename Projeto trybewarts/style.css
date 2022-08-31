@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+  align-items: center;
+}
+
+.trybewarts-login {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trybewarts-login input {
+  margin-right: 8px;
+  width: 180px;
+  height: 40px;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+.trybewarts-header-logo {
+  width: 100px;
+  height: 100px;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#landing-page {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+#name-lastname {
+  display: flex;
+  flex-direction: row;
+}
+
+.segunda-linha {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
