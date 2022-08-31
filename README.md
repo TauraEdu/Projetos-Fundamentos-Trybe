@@ -8,9 +8,9 @@
 # Projetos-Fundamentos-Trybe
 
 01 - Lessons Learned - Primeira pagina desenvolvida com HTML e CSS.
---
+
 02 - Projeto - Playground Functions - Projeto para desenvolver funções em JS a partir de requisitos.
---
+
 03 - Projeto - Arte com Pixels - Projeto para desemvolver uma paleta de cores atraves da manipulação do DOM, Local e Session Storage.
---
+
 04 - Projeto To do List - Desenvbolvi uma lista de tarefas usando `HTML`, `CSS` e `JavaScript`.
