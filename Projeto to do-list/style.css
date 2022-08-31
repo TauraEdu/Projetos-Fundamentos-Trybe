@@ -1,0 +1,36 @@
+/*7 - Clicar em um item da lista deve alterar a cor de fundo do item para cinza
+O que será verificado:
+
+Atenção, a cor deve ser alterada para para o nome da cor (gray) e não qualquer outro padrão de cores.
+
+Será verificado que, ao se carregar a página, os itens da lista não tem o estilo CSS background-color: gray;
+
+Será verificado que, ao se clicar em um item da lista, ele passa a ter o estilo CSS background-color: gray.
+
+8 - Não deve ser possível selecionar mais de um elemento da lista ao mesmo tempo
+O que será verificado:
+
+Será verificado que, quando um elemento da lista é selecionado, o elemento selecionado previamente deixa de sê-lo. Isso é verificado através da presença ou não do estilo background-color: gray no elemento.
+9 - Clicar duas vezes em um item, faz com que ele seja riscado, indicando que foi completo. Deve ser possível desfazer essa ação clicando novamente duas vezes no item
+Pontos importantes sobre este requisito:
+
+* Crie uma classe CSS com o nome "completed" e defina a propriedade "text-decoration" com o valor "line-through".
+
+* Utilize a classe CSS "completed" para adicionar o efeito de letra tachada (riscada) às tarefas finalizadas.*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: nome;
+    
+    }
+    
+    body {
+    font-size: 100%;  
+    background: rgb(15,179,199);
+    background: linear-gradient(251deg, rgba(15,179,199,1) 45%, rgba(0,212,255,1) 100%);
+    }
+       /* item 9 */  
+    .completed { 
+    text-decoration: line-through;
+    }
