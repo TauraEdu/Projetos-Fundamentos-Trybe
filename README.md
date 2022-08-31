@@ -13,3 +13,4 @@
 --
 03 - Projeto - Arte com Pixels - Projeto para desemvolver uma paleta de cores atraves da manipulação do DOM, Local e Session Storage.
 --
+04 - Projeto To do List - Desenvbolvi uma lista de tarefas usando `HTML`, `CSS` e `JavaScript`.
